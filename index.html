@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Boostrap + JQuery.focus test</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  </head>
+  <body>
+    <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script> 
+    
+    <div class="row">
+      <div class="span12">
+        <h1>Boostrap + JQuery.focus test</h1>
+        <form>
+          <input name="one" value="one" id="one">
+          <input name="two" value="two" id="two">
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript">
+      jQuery(document).ready(function($){
+        $("#two").focus();
+      })
+    </script>
+  </body>
+</html>
